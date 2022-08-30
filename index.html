@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/preloader.css">
+
+    <link rel="shortcut icon" href="#">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- loader -->
+    <div class="preloader" id="preloader">
+        <img src="img/vendetta_sin_animacion.svg" alt="Preloader" loading="lazy">
+        <h5 class="cargando"></h5>
+    </div>
+    <!-- particles -->
+    <div id="particles-js"></div>
+    
+    <header class="hero" id="hero">
+        <div class="hero__container" id="hero__container">
+            <nav class="nav">
+                <div class="nav__contenedor-logo">
+                    <h1 class="nav__logo">DS</h1>
+                </div>
+                <div class="nav__links">
+                    <a href="#" class="nav__link">Inicio</a>
+                    <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+                    <a href="#servicios" class="nav__link">Servicios</a>
+                    <a href="#habilidades" class="nav__link">Habilidades</a>
+                    <a href="#portafolio" class="nav__link">Portafolio</a>
+                    <a href="#contacto" class="nav__link">Contacto</a>
+                </div>
+                <div class="nav__menu">
+                    <i class="fa-solid fa-bars menu__icon"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="hero__textos">
+            <h2>¡Bienvenido a mi portafolio!</h2>
+            <!-- forma 1 -->
+            <!-- <h2 class="hero__texto-dinamico"><span class="typed"></span></h2> -->
+            <!-- forma 2 -->
+            <h2 class="hero__texto-dinamico"><span class="typed"></span></h2>
+
+            <h3 class="hero__sede">Guanajuato, México.</h3>
+            <a href="#sobre-mi" class="hero__link-arrow"><i class="fa-solid fa-angle-down hero__arrow"></i></a>
+        </div>
+    </header>
+
+    
+    <div class="sobre-mi" id="sobre-mi">
+        <div class="sobre-mi__container">
+            <div class="container-img">
+                <img src="img/sobre_mi.svg" alt="Imagen sobre mi" class="container-img__img" loading="lazy">
+            </div>
+            <div class="sobre-mi__texts">
+                <h3 class="sobre-mi__titulo">Sobre mí</h3>
+                <h3 class="sobre-mi__nombre">Mi nombre es <span class="typedSobreMi"></span></h3>
+                
+                <p class="sobre-mi__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eius dicta saepe eligendi enim, vitae, quos dolorum illo commodi sequi omnis quae accusantium sed nesciunt vero quasi recusandae! Iure impedit, necessitatibus dolore odio est enim exercitationem! Eaque impedit autem, neque, deleniti distinctio voluptatibus, illum eveniet repudiandae optio quaerat commodi!</p>
+            </div>
+            <div class="sobre-mi__botones">
+                <a href="#" class="sobre-mi__boton sobre-mi__boton-ver">Ver CV</a>
+                <a href="#" class="sobre-mi__boton sobre-mi__boton-descargar">Descargar CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicios" id="servicios">
+        <div class="servicios__fondo"></div>
+        <div class="servicios__container">
+            <div class="servicios__textos">
+                <h3 class="servicios__titulo">Servicios</h3>
+                <p class="servicios__parrafo">Te ofrezo servicios como...</p>
+            </div>
+            <div class="servicios__sections">
+                <section class="servicios__section" id="servicioLandingPage">
+                    <div class="servicios__section-overlay"></div>
+                    <div class="servicios__section-container">
+                        <h5 class="servicios__section-creacion-de">Creación de</h5>
+                        <h4 class="servicios__section-titulo">Landing page's</h4>
+                    </div>
+                </section>
+                <section class="servicios__section" id="servicioAplicacionWeb">
+                    <div class="servicios__section-overlay"></div>
+                    <div class="servicios__section-container">
+                        <h5 class="servicios__section-creacion-de">Creación de</h5>
+                        <h4 class="servicios__section-titulo">Aplicaciones web</h4>
+                    </div>
+                </section>
+                <section class="servicios__section" id="servicioEcommerce">
+                    <div class="servicios__section-overlay"></div>
+                    <div class="servicios__section-container">
+                        <h5 class="servicios__section-creacion-de">Creación de</h5>
+                        <h4 class="servicios__section-titulo">Ecommerce</h4>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="habilidades" id="habilidades">
+        <div class="habilidades__container">
+            <h3 class="habilidades__titulo">Habilidades</h3>
+            <div class="skills">
+                <div class="skills__item">
+                    <i class="fa-brands fa-html5 skills__icono skills__icono--html"></i>
+                    <div class="skills__bar skills__bar--50"></div>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-css3-alt skills__icono skills__icono--css"></i>
+                    <div class="skills__bar skills__bar--60"></div>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-js skills__icono skills__icono--js"></i>
+                    <div class="skills__bar skills__bar--50"></div>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-react skills__icono skills__icono--react"></i>
+                    <div class="skills__bar skills__bar--10"></div>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-php skills__icono skills__icono--php"></i>
+                    <div class="skills__bar skills__bar--30"></div>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-solid fa-database skills__icono skills__icono--mysql"></i>
+                    <div class="skills__bar skills__bar--20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <a href="#hero" class="scroll-up" id="scrollUp">
+        <i class="fa-solid fa-angle-up scroll-up__icon"></i>
+    </a>
+
+    <script src="https://kit.fontawesome.com/525d62cfab.js" crossorigin="anonymous"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="libraries/particles.js-master/particles.js"></script>
+    <script src="libraries/particles.js-master/demo/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --colorAzulPrincipal: #2D4263;
+    --colorAzulSecundario: #234172;
+    --colorNegro: #191919;
+    --colorNaranja: #C84B31;
+    --heightAfterLine: 0.060rem;
+}
+.preloader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #2f2f2f;
+    transition: clip-path 1.5s ease-in-out;
+    clip-path: inset(0 0 0 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader img{
+    width: 12rem;
+    height: 12rem;
+}
+.preloader h5{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #149414;
+    letter-spacing: .1rem;
+    position: absolute;
+    bottom: 35%;
+    text-align: center;
+    display: inline-block;
+    width: max-content;
+}
+.loader2{
+    clip-path: inset(0 0 0 110%);
+}
+
